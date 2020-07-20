@@ -1,0 +1,106 @@
+
+html, body {
+    margin: 0;
+    padding: 0;
+}
+.container {
+
+    -webkit-flex: 3;
+    width: 1200px;
+    height: auto;
+    margin: 0px auto;
+    padding: 20px;
+    border-style: solid;
+    background-color: lemonchiffon;
+}
+.col{
+    width: auto;
+    height: auto;
+}
+.row{
+    -webkit-flex: 2;
+    column-width: auto;
+
+}
+.Col-8{
+    float: left;
+    width: auto;
+}
+.col-4{
+    float: right;
+    width: auto;
+    background-color: khaki;
+
+}
+.contact{
+    background-color: greenyellow;
+}
+ul {
+    font-size: 1em;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+li{
+    display: inline-block;
+    margin: 0 55px;
+    padding-bottom: 5px;
+}
+
+
+/*
+.header{
+    margin: auto;
+    background-color: darkmagenta;
+}
+
+.entete{
+    display: -webkit-box;
+    height: 110px;
+}
+.civil{
+    display: inline-block;
+    border-style: dotted;
+    width: auto;
+    height: 109px;
+
+}
+#nom{
+    margin: 10px;
+    font-family: Arial;
+    font-size: 20px;
+}
+#metier{
+    font-family: Arial;
+    font-size: 15px;
+    margin: 10px;
+}
+.contact{
+    margin: 0px;
+    padding: 0px;
+}
+ul{
+    display: -webkit-inline-flex;
+}
+li{
+    margin: 0 35px;
+    font-size: 1rem;
+}
+
+img{
+    border-style: dotted;
+    width: 145px;
+    flex-direction: row;
+    float: right;
+}
+
+
+    width: auto;
+    height: 109px;
+    border-style: dotted;
+    background-color: greenyellow;
+    float: right;
+}
+
+

@@ -1,0 +1,42 @@
+.body {
+    -webkit-flex: 3;
+    width: auto;
+    height: auto;
+}
+.exp{
+    display: flex;
+    width: auto;
+    margin: 0;
+    padding: 0;
+}
+.comp{
+    display: flex;
+    width: auto;
+    margin: 0;
+    padding: 0;
+}
+
+.form {
+    display: flex;
+    width: auto;
+    margin: 0;
+    padding: 0;
+}
+.col-sm-2{
+    margin: 0 15px;
+
+}
+.col-sm-10{
+    width: 70%;
+    text-align: justify-all;
+    padding: 40px 90px;
+}
+h3 {
+    font-weight: bold;
+    text-decoration: underline;
+    text-align: left;
+}
+#ex, #com, #for, #cd{
+
+    color: darkblue;
+}
